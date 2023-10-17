@@ -125,6 +125,8 @@ Volver SUID el bash
 ![image](https://github.com/gecr07/Bashed-HTB/assets/63270579/7c543572-6ebd-4a56-adde-c8d57aefecd2)
 
 
+![image](https://github.com/gecr07/Bashed-HTB/assets/63270579/f0bc3847-f12a-40ab-9628-1f7f18881d5f)
+
 
 
 
