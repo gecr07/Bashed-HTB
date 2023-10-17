@@ -94,7 +94,7 @@ find / -name "*.*" -type f -perm -400
 
 ```
 
-Al ejecutar el linpeas nos dimos cuenta de la existencia de un folder /scripts y tambien usamos el pspy para ver que hay dentro.
+Al ejecutar el linpeas nos dimos cuenta de la existencia de un folder /scripts y tambien usamos el pspy para ver si hay una tarea cron y si.
 
 ```
 pspy32s
